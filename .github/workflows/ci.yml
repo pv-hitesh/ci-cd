@@ -23,9 +23,12 @@ jobs:
     - name: Check code formatting
       run: npm run format:check
       
-  codeScanning
+  codeScanning:
     runs-on: ubuntu-latest
 
+    steps:
+    - uses: actions/checkout@v3
+    
     - name: Setup Node.js
       uses: actions/setup-node@v3
       with:
