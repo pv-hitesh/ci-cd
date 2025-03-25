@@ -22,6 +22,3 @@ jobs:
     
     - name: Check code formatting
       run: npm run format:check
-    
-    - name: Run tests (if you add them later)
-      run: npm test || true 
