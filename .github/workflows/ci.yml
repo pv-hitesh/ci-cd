@@ -5,7 +5,7 @@ on:
     branches: [ alpha, beta, prod ]
 
 jobs:
-  build:
+  prettierCheck:
     runs-on: ubuntu-latest
 
     steps:
